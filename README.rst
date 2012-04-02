@@ -45,13 +45,18 @@ Usage
 Installation
 -------------------------------------------------------------------------------
 
-This ZenPack has no special installation considerations.  Depending on the
-version of Zenoss you're installing the ZenPack into, you will need to verify
-that you have the correct package (.egg) to install.
+This ZenPack has no special installation considerations. You should install the
+most recent version of the ZenPack for the version of Zenoss you're running.
 
-* Zenoss 4.1 and later: The ZenPack file must end with ``-py2.7.egg``.
-* Zenoss 3.0 - 4.0: The ZenPack file must end with ``-py2.6.egg``.
-* Zenoss 2.2 - 2.5: The ZenPack file must end with ``-py2.4.egg``.
+* `Packages for Zenoss 4.2`_
+* `Packages for Zenoss 4.1`_
+* `Packages for Zenoss 4.0`_
+* `Packages for Zenoss 3.2`_
+
+.. _Packages for Zenoss 4.2: http://zenpacks.zenoss.com/pypi/github/4.2/ZenPacks.networking.HPProcurve
+.. _Packages for Zenoss 4.1: http://zenpacks.zenoss.com/pypi/github/4.1/ZenPacks.networking.HPProcurve
+.. _Packages for Zenoss 4.0: http://zenpacks.zenoss.com/pypi/github/4.0/ZenPacks.networking.HPProcurve
+.. _Packages for Zenoss 3.2: http://zenpacks.zenoss.com/pypi/github/3.2/ZenPacks.networking.HPProcurve
 
 To install the ZenPack you must copy the ``.egg`` file to your Zenoss master
 server and run the following command as the ``zenoss`` user::
