@@ -17,7 +17,7 @@
 NAME = 'ZenPacks.networking.HPProcurve'
 VERSION = '1.1.1'
 AUTHOR = 'Florian Deckert'
-LICENSE = ''
+LICENSE = "GPLv2"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.networking']
 PACKAGES = ['ZenPacks', 'ZenPacks.networking', 'ZenPacks.networking.HPProcurve']
 INSTALL_REQUIRES = []
